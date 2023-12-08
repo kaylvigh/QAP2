@@ -1,3 +1,3 @@
-FROM openjdk:21-jdk-slim
-COPY target/*.jar qap2.jar
-ENTRYPOINT ["java","-jar","/qap2.jar"]
+FROM openjdk:17.0.1-jdk-slim
+COPY target/*.jar app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]

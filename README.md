@@ -12,12 +12,14 @@ In order to run this program locally, you are going to need:
 
 # Maven Tool Window (view > tool windows > maven)
 
-- Under the "Lifecycle" folder, double-click on "package".
+- Under the "Lifecycle" folder, double-click on "clean" and then double-click on "install".
 
 # Terminal
 
-- Run the command: docker build --pull . -t openjdk:21-jdk-slim
-- Run the command: docker build -t qap2-image .
-- Run the command: docker run -p 8080:8080 qap2-image
+- Run the command: docker build -t kaylvigh/qap2-image .
+- Run the command: docker push kaylvigh/qap2-image:latest
+- Run the command: docker-compose up
 
+# Postman
 
+- In postman, make a request to http://localhost:8080/ and at the end type aircraft, airport, city, or passengers.
