@@ -1,5 +1,5 @@
 package com.keyin.Passengers;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import com.keyin.Aircraft.Aircraft;
 import com.keyin.Airport.Airport;
 import com.keyin.City.City;

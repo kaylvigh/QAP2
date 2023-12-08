@@ -1,5 +1,5 @@
 package com.keyin.City;
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class City {

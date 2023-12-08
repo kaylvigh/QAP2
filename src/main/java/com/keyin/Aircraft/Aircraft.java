@@ -1,5 +1,5 @@
 package com.keyin.Aircraft;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import com.keyin.Airport.Airport;
 import java.util.List;
 @Entity
